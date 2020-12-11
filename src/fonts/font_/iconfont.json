@@ -1,0 +1,107 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "99211",
+      "name": "方向键",
+      "font_class": "weibiaoti1",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "838048",
+      "name": "7天无理由退货",
+      "font_class": "7tianwuliyoutuihuo",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "1343585",
+      "name": "方向键",
+      "font_class": "fangxiangjian",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "4696042",
+      "name": "位置",
+      "font_class": "weizhi",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "6061245",
+      "name": "微信 (1)",
+      "font_class": "weixin",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "6722240",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e50d",
+      "unicode_decimal": 58637
+    },
+    {
+      "icon_id": "6800344",
+      "name": "中国",
+      "font_class": "zhongguo",
+      "unicode": "e548",
+      "unicode_decimal": 58696
+    },
+    {
+      "icon_id": "7921997",
+      "name": "方向键",
+      "font_class": "fangxiangjian1",
+      "unicode": "e50a",
+      "unicode_decimal": 58634
+    },
+    {
+      "icon_id": "9412343",
+      "name": "sf-logo",
+      "font_class": "sf-logo",
+      "unicode": "e555",
+      "unicode_decimal": 58709
+    },
+    {
+      "icon_id": "14685356",
+      "name": "气泡",
+      "font_class": "qipao",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "18724125",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "18724131",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "18724148",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "18724149",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}

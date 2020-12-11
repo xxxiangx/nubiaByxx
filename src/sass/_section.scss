@@ -1,0 +1,90 @@
+%img_width {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #e95f46;
+}
+
+.section {
+    overflow: hidden;
+    .carousel {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 10px;
+        .index_cs {
+            position: absolute;
+            bottom: 26px;
+            left: 42%;
+            li {
+                float: left;
+                width: 40px;
+                height: 2px;
+                background-color: #555;
+                margin-right: 2px;
+            }
+        }
+        .inner_cs {
+            img {
+                @extend %img_width;
+            }
+        }
+    }
+    .adv {
+        margin-bottom: 10px;
+        position: relative;
+        img {
+            @extend %img_width;
+        }
+    }
+    .main {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        .main_list {
+            float: left;
+            width: 50%;
+            padding: 0 10px 10px 0;
+            img {
+                @extend %img_width;
+            }
+        }
+    }
+    .spell {
+        margin-bottom: 10px;
+        img {
+            @extend %img_width;
+        }
+    }
+    .recommend {
+        background: #f0f0f0;
+        padding: 40px 0;
+        padding-left: calc((7% - 25px));
+        padding-right: calc((7% - 25px));
+        li {
+            float: left;
+            width: 30%;
+            padding: 0 25px;
+            .re_title {
+                font-size: 14px;
+                color: #666666;
+                margin-bottom: 16px;
+            }
+            .re_info {
+                font-size: 18px;
+                color: #333;
+                height: 60px;
+            }
+            .re_more {
+                font-size: 14px;
+                color: #5097df;
+            }
+            img {
+                @extend %img_width;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
