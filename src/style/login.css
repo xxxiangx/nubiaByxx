@@ -1,0 +1,241 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  min-width: 1200px; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden; }
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto; }
+
+body {
+  background: #f5f5f5; }
+
+.loginreg_cont {
+  width: 850px;
+  margin: 0 auto;
+  margin-top: 60px;
+  background: #fff;
+  padding: 30px 0 80px;
+  margin-bottom: 40px; }
+  .loginreg_cont .loginreg_logo {
+    background: url("https://account.nubia.com/res1/images/nubia-logo.png") no-repeat;
+    width: 156px;
+    height: 55px;
+    margin: 0 auto 20px; }
+  .loginreg_cont .loginreg {
+    width: 370px;
+    margin: 0 auto;
+    text-align: center; }
+    .loginreg_cont .loginreg .loginreg_info {
+      padding-top: 24px; }
+      .loginreg_cont .loginreg .loginreg_info div {
+        margin-bottom: 20px; }
+        .loginreg_cont .loginreg .loginreg_info div .loginreg_input {
+          width: 350px;
+          height: 50px;
+          line-height: 50px;
+          padding-left: 10px;
+          border: 1px solid #e0e4e7;
+          vertical-align: middle;
+          font-size: 12px; }
+    .loginreg_cont .loginreg .loginreg_btn {
+      width: 360px;
+      height: 50px;
+      line-height: 50px;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 20px;
+      font-size: 20px;
+      background: #e8380d;
+      color: #fff;
+      border: none;
+      cursor: pointer; }
+
+.loginreg_foot {
+  text-align: center;
+  margin: 0 auto 40px;
+  width: 1000px;
+  color: #ccc;
+  font-size: 12px; }
+  .loginreg_foot a {
+    margin-right: 20px;
+    color: #ccc; }
+  .loginreg_foot a:hover {
+    color: #333;
+    text-decoration: underline; }
+  .loginreg_foot img {
+    vertical-align: middle;
+    height: 18px; }
+
+.login_title {
+  color: #333;
+  font-size: 18px; }
+
+.login_tab {
+  text-align: right; }
+  .login_tab span {
+    margin: 0 6px; }
+  .login_tab a {
+    font-size: 14px; }
+    .login_tab a:hover {
+      text-decoration: underline; }
+
+.login_other {
+  float: left;
+  line-height: 30px;
+  color: #666666; }
+  .login_other span {
+    font-size: 28px;
+    vertical-align: middle;
+    margin: 0 5px;
+    cursor: pointer; }
+    .login_other span:first-child:hover {
+      color: #00A31E; }
+    .login_other span:nth-child(2):hover {
+      color: #00A0E9; }
+    .login_other span:nth-child(3):hover {
+      color: #DC2C22; }
+    .login_other span:nth-child(4):hover {
+      color: #00A0E9; }
+
+/*# sourceMappingURL=login.css.map */

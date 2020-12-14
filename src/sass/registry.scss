@@ -1,0 +1,28 @@
+@import 'reset';
+@import 'loginreg';
+%link_a {
+    color: #e8380d;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.accept {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    a {
+        @extend %link_a;
+        margin-left: 4px;
+    }
+}
+
+.tologin {
+    text-align: right;
+    font-size: 14px;
+    color: #666;
+    a {
+        @extend %link_a;
+    }
+}

@@ -13,6 +13,13 @@
       "unicode_decimal": 58931
     },
     {
+      "icon_id": "688009",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
       "icon_id": "838048",
       "name": "7天无理由退货",
       "font_class": "7tianwuliyoutuihuo",
@@ -34,16 +41,23 @@
       "unicode_decimal": 59033
     },
     {
+      "icon_id": "5933227",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
       "icon_id": "6061245",
       "name": "微信 (1)",
-      "font_class": "weixin",
+      "font_class": "weixin1",
       "unicode": "e64a",
       "unicode_decimal": 58954
     },
     {
       "icon_id": "6722240",
       "name": "微博",
-      "font_class": "weibo",
+      "font_class": "weibo1",
       "unicode": "e50d",
       "unicode_decimal": 58637
     },
@@ -60,6 +74,20 @@
       "font_class": "fangxiangjian1",
       "unicode": "e50a",
       "unicode_decimal": 58634
+    },
+    {
+      "icon_id": "9204364",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "9295722",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
     },
     {
       "icon_id": "9412343",

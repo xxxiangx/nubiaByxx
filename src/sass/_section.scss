@@ -4,32 +4,62 @@
     cursor: pointer;
 }
 
-.active {
-    background-color: #e95f46;
-}
+%wrap_ {}
 
 .section {
     overflow: hidden;
+    position: relative;
     .carousel {
         position: relative;
+        height: 700px;
+        width: 1920px;
+        margin: 0 auto 10px;
+        margin-left: -360px;
         overflow: hidden;
-        margin-bottom: 10px;
         .index_cs {
             position: absolute;
             bottom: 26px;
             left: 42%;
+            z-index: 3;
             li {
                 float: left;
                 width: 40px;
-                height: 2px;
+                height: 4px;
                 background-color: #555;
                 margin-right: 2px;
             }
+            .active {
+                background-color: #e95f46;
+            }
         }
         .inner_cs {
+            overflow: hidden;
+            position: relative;
+            height: 700px;
+            li {
+                height: 700px;
+                overflow: hidden;
+                width: 1920px;
+                float: left;
+            }
             img {
                 @extend %img_width;
             }
+        }
+        .cs_left,
+        .cs_right {
+            position: absolute;
+            top: 50%;
+            color: #fff;
+            font-size: 60px;
+            cursor: pointer;
+            display: none;
+        }
+        .cs_left {
+            left: 40px;
+        }
+        .cs_right {
+            right: 40px;
         }
     }
     .adv {
@@ -61,12 +91,10 @@
     .recommend {
         background: #f0f0f0;
         padding: 40px 0;
-        padding-left: calc((7% - 25px));
-        padding-right: calc((7% - 25px));
         li {
             float: left;
             width: 30%;
-            padding: 0 25px;
+            margin: 0 20px;
             .re_title {
                 font-size: 14px;
                 color: #666666;

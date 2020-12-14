@@ -1,0 +1,43 @@
+@import 'reset';
+@import 'loginreg';
+.login_title {
+    color: #333;
+    font-size: 18px;
+}
+
+.login_tab {
+    text-align: right;
+    span {
+        margin: 0 6px;
+    }
+    a {
+        font-size: 14px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.login_other {
+    float: left;
+    line-height: 30px;
+    color: rgb(102, 102, 102);
+    span {
+        font-size: 28px;
+        vertical-align: middle;
+        margin: 0 5px;
+        cursor: pointer;
+        &:first-child:hover {
+            color: #00A31E;
+        }
+        &:nth-child(2):hover {
+            color: #00A0E9;
+        }
+        &:nth-child(3):hover {
+            color: #DC2C22;
+        }
+        &:nth-child(4):hover {
+            color: #00A0E9;
+        }
+    }
+}

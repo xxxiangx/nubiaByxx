@@ -1,0 +1,10 @@
+@import 'reset';
+@import 'header';
+@import 'footer';
+.section {
+    background: #f0f0f0;
+    padding: 40px 40px 60px;
+    .goodslist {
+        background: #fff;
+    }
+}

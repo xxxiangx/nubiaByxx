@@ -1,0 +1,64 @@
+@import 'reset';
+@import 'header';
+@import 'footer';
+.section {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 60px 0;
+    .goodspic {
+        float: left;
+        width: 600px;
+        margin-right: 60px;
+        img {
+            width: 100%;
+        }
+    }
+    .goodsinfo {
+        float: left;
+        padding-top: 80px;
+        font-size: 24px;
+        .p_name {
+            margin-bottom: 40px;
+        }
+        .p_price {
+            width: 50px;
+            margin-bottom: 40px;
+        }
+        .p_count {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: #666;
+            font-size: 14px;
+            letter-spacing: 7px;
+            line-height: 20px;
+            margin-bottom: 30px;
+            .p_num {
+                width: 40%;
+                height: 50px;
+                border: 1px solid rgb(230, 230, 230);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            span {
+                cursor: pointer;
+                font-weight: 900;
+                font-size: 24px;
+            }
+        }
+    }
+    .p_btn {
+        background: #eee;
+        color: #333;
+        font-size: 16px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+            background: #dedcdc;
+        }
+    }
+}

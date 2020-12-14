@@ -249,89 +249,6 @@ a {
         .header .head_tab .inner_tab .inner_list img {
           width: 100px; }
 
-.section .carousel .inner_cs img, .section .adv img, .section .main .main_list img, .section .spell img, .section .recommend li img {
-  width: 100%;
-  display: block;
-  cursor: pointer; }
-
-.section {
-  overflow: hidden;
-  position: relative; }
-  .section .carousel {
-    position: relative;
-    height: 700px;
-    width: 1920px;
-    margin: 0 auto 10px;
-    margin-left: -360px;
-    overflow: hidden; }
-    .section .carousel .index_cs {
-      position: absolute;
-      bottom: 26px;
-      left: 42%;
-      z-index: 3; }
-      .section .carousel .index_cs li {
-        float: left;
-        width: 40px;
-        height: 4px;
-        background-color: #555;
-        margin-right: 2px; }
-      .section .carousel .index_cs .active {
-        background-color: #e95f46; }
-    .section .carousel .inner_cs {
-      overflow: hidden;
-      position: relative;
-      height: 700px; }
-      .section .carousel .inner_cs li {
-        height: 700px;
-        overflow: hidden;
-        width: 1920px;
-        float: left; }
-    .section .carousel .cs_left,
-    .section .carousel .cs_right {
-      position: absolute;
-      top: 50%;
-      color: #fff;
-      font-size: 60px;
-      cursor: pointer;
-      display: none; }
-    .section .carousel .cs_left {
-      left: 40px; }
-    .section .carousel .cs_right {
-      right: 40px; }
-  .section .adv {
-    margin-bottom: 10px;
-    position: relative; }
-  .section .main {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px; }
-    .section .main .main_list {
-      float: left;
-      width: 50%;
-      padding: 0 10px 10px 0; }
-  .section .spell {
-    margin-bottom: 10px; }
-  .section .recommend {
-    background: #f0f0f0;
-    padding: 40px 0; }
-    .section .recommend li {
-      float: left;
-      width: 30%;
-      margin: 0 20px; }
-      .section .recommend li .re_title {
-        font-size: 14px;
-        color: #666666;
-        margin-bottom: 16px; }
-      .section .recommend li .re_info {
-        font-size: 18px;
-        color: #333;
-        height: 60px; }
-      .section .recommend li .re_more {
-        font-size: 14px;
-        color: #5097df; }
-      .section .recommend li img {
-        margin-bottom: 30px; }
-
 .footer {
   clear: both;
   background: #fff;
@@ -438,4 +355,39 @@ a {
       color: #fff;
       border-radius: 10px; }
 
-/*# sourceMappingURL=index.css.map */
+.section {
+  background: #a9a9a9;
+  padding: 44px 0; }
+  .section .ulists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition: transform 0.25s linear; }
+    .section .ulists .list {
+      margin: 25px;
+      background-color: #fff;
+      padding: 10px 10px 60px;
+      text-align: center; }
+      .section .ulists .list:hover {
+        transform: translate3d(0, -6px, 0);
+        -moz-box-shadow: 0px 4px 10px #999;
+        -webkit-box-shadow: 0px 4px 10px #999;
+        box-shadow: 0px 4px 10px #999; }
+      .section .ulists .list span {
+        display: block;
+        padding: 4px;
+        background-color: #de634f;
+        color: #fff;
+        width: 70px;
+        height: 26px;
+        line-height: 26px; }
+      .section .ulists .list .title {
+        font-size: 14px;
+        margin-bottom: 20px;
+        width: 300px; }
+      .section .ulists .list .li_price {
+        font-weight: 900; }
+      .section .ulists .list img {
+        width: 230px; }
+
+/*# sourceMappingURL=listdata.css.map */

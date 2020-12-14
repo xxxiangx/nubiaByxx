@@ -1,0 +1,45 @@
+@import 'reset';
+@import 'header';
+@import 'footer';
+.section {
+    background: #a9a9a9;
+    padding: 44px 0;
+    .ulists {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        transition: transform 0.25s linear;
+        .list {
+            margin: 25px;
+            background-color: #fff;
+            padding: 10px 10px 60px;
+            text-align: center;
+            &:hover {
+                transform: translate3d(0, -6px, 0);
+                -moz-box-shadow: 0px 4px 10px #999;
+                -webkit-box-shadow: 0px 4px 10px #999;
+                box-shadow: 0px 4px 10px #999;
+            }
+            span {
+                display: block;
+                padding: 4px;
+                background-color: #de634f;
+                color: #fff;
+                width: 70px;
+                height: 26px;
+                line-height: 26px;
+            }
+            .title {
+                font-size: 14px;
+                margin-bottom: 20px;
+                width: 300px;
+            }
+            .li_price {
+                font-weight: 900;
+            }
+            img {
+                width: 230px;
+            }
+        }
+    }
+}
