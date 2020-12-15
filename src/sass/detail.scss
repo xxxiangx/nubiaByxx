@@ -12,6 +12,20 @@
         img {
             width: 100%;
         }
+        .pic_list {
+            display: flex;
+            justify-content: space-around;
+            li {
+                border: 1px solid #fff;
+            }
+            .selected {
+                border: 1px solid #de634f;
+            }
+            img {
+                width: 86px;
+                height: 86px;
+            }
+        }
     }
     .goodsinfo {
         float: left;
@@ -41,6 +55,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                padding: 0 6px;
             }
             span {
                 cursor: pointer;

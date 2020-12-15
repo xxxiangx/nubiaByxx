@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>商品列表——努比亚官方网站</title>
+    <link rel="stylesheet" href="style/pagination.css">
     <link rel="stylesheet" href="style/listdata.css">
     <link rel="stylesheet" href="fonts/font_/iconfont.css">
     <script src="fonts/font_/iconfont.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js" defer async=true data-main="script/main.js" id="currentpage" data-origin="list_module"></script>
 </head>
 
 <body>
@@ -76,14 +78,18 @@
     </div>
 
     <div class="section">
+        <button>默认价格</button>
+        <button>↑　价格</button>
+        <button>↓　价格</button>
+
         <ul class="ulists">
-            <!-- <li class="list">
-                <span>新品</span>
-                <img src="https://oss.static.nubia.cn/active/5f9629c8cb08d89.png" alt="">
-                <p class="title">65W三口氮化镓充电器（GaN 2 pro） 灰色</p>
-                <div class="li_price">￥<i>148</i></div>
-            </li> -->
+
         </ul>
+        <!-- 分页的结构 -->
+        <div class="pagelist">
+            <div class="m-style page">
+            </div>
+        </div>
     </div>
 
     <div class="footer">
@@ -173,5 +179,6 @@
 </body>
 
 </html>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="script/listdata.js" defer async="true"></script>
+<!-- <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="script/pagination.js"></script>
+<script src="script/listdata.js" defer async="true"></script> -->

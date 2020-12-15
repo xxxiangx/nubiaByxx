@@ -3,7 +3,7 @@
 @import 'footer';
 .section {
     background: #a9a9a9;
-    padding: 44px 0;
+    padding: 44px 0 76px;
     .ulists {
         display: flex;
         flex-wrap: wrap;
@@ -14,13 +14,15 @@
             background-color: #fff;
             padding: 10px 10px 60px;
             text-align: center;
+            width: 400px;
+            height: 300px;
             &:hover {
                 transform: translate3d(0, -6px, 0);
                 -moz-box-shadow: 0px 4px 10px #999;
                 -webkit-box-shadow: 0px 4px 10px #999;
                 box-shadow: 0px 4px 10px #999;
             }
-            span {
+            .li_new {
                 display: block;
                 padding: 4px;
                 background-color: #de634f;
@@ -32,14 +34,27 @@
             .title {
                 font-size: 14px;
                 margin-bottom: 20px;
-                width: 300px;
             }
             .li_price {
                 font-weight: 900;
             }
             img {
                 width: 230px;
+                height: 230px;
+                margin-bottom: 10px;
             }
+        }
+    }
+    button {
+        width: 100px;
+        margin-left: 30px;
+        padding: 10px;
+        vertical-align: middle;
+        font-size: 14px;
+        border-radius: 4px;
+        &:hover {
+            background-color: #434343;
+            color: #fff;
         }
     }
 }

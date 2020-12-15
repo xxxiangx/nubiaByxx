@@ -4,25 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>用户注册——努比亚官方网站</title>
     <link rel="stylesheet" href="style/registry.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js" defer async=true data-main="script/main.js" id="currentpage" data-origin="reg_module"></script>
 </head>
 
 <body>
     <div class="loginreg_cont">
         <div class="loginreg_logo"></div>
-        <form action="" class="loginreg">
+        <form action="http://10.31.161.76/dashboard/nubiaByxx/php/reg.php" class="loginreg" method="POST">
             <div class="loginreg_info">
                 <div>
                     <input type="text" name="username" id="username" placeholder="请输入手机号码" class="loginreg_input">
+                    <span>请输入手机号码</span>
                 </div>
+
                 <div>
                     <input type="password" name="password" id="password" placeholder="密码为8-16个字符（数字、大小写字母、符号至少包含三种）" class="loginreg_input">
+                    <span>密码格式错误</span>
                 </div>
                 <div class="accept">
                     <input type="checkbox" checked="checked">我已阅读并接受<a href="https://account.nubia.com/res/html/agreement.html">用户协议</a>和<a href="https://account.nubia.com/res/html/privacy.html">隐私政策</a>
                 </div>
-                <input type="submit" class="loginreg_btn" value="提　交">
+                <input type="submit" class="loginreg_btn" value="提交">
                 <div class="tologin">
                     已有账号，<a href="login.html">直接登录</a>
                 </div>

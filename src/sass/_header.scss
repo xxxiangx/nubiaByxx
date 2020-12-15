@@ -4,18 +4,6 @@
     color: #333;
 }
 
-%fs14 {
-    font-size: 14px;
-}
-
-%fs20 {
-    font-size: 20px;
-}
-
-%skip {
-    cursor: pointer;
-}
-
 .header {
     @extend %public;
     position: relative;
@@ -34,9 +22,9 @@
     .header_content {
         float: left;
         .con_li {
-            @extend %fs14;
+            font-size: 14px;
             float: left;
-            @extend %skip;
+            cursor: pointer;
             line-height: 60px;
             padding: 0 25px;
         }
@@ -48,8 +36,34 @@
         height: 60px;
         span {
             padding-right: 20px;
-            @extend %skip;
-            @extend %fs20;
+            cursor: pointer;
+            font-size: 20px;
+            position: relative;
+        }
+        .loginreg {
+            position: absolute;
+            display: none;
+            top: 20px;
+            right: -76px;
+            background: #fff;
+            width: 300px;
+            padding: 20px;
+            overflow: hidden;
+            z-index: 3;
+            li {
+                color: #414143;
+                font-size: 14px;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #eee;
+                a {
+                    color: #999;
+                    font-size: 14px;
+                    &:hover {
+                        color: #333;
+                    }
+                }
+            }
         }
     }
     .head_tab {
@@ -97,7 +111,7 @@
                     overflow: hidden;
                     margin-right: 40px;
                     .title {
-                        line-height: 20px;
+                        line-height: 14px;
                         color: #333;
                         font-size: 12px;
                     }
@@ -122,6 +136,7 @@
                 }
                 img {
                     width: 100px;
+                    height: 100px;
                 }
             }
         }

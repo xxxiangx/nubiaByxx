@@ -167,9 +167,12 @@ body {
     margin: 0 auto;
     text-align: center; }
     .loginreg_cont .loginreg .loginreg_info {
-      padding-top: 24px; }
+      padding-top: 24px;
+      text-align: left;
+      display: flex;
+      flex-direction: column; }
       .loginreg_cont .loginreg .loginreg_info div {
-        margin-bottom: 20px; }
+        margin-bottom: 10px; }
         .loginreg_cont .loginreg .loginreg_info div .loginreg_input {
           width: 350px;
           height: 50px;
@@ -178,6 +181,13 @@ body {
           border: 1px solid #e0e4e7;
           vertical-align: middle;
           font-size: 12px; }
+      .loginreg_cont .loginreg .loginreg_info span {
+        font-size: 12px;
+        padding-left: 10px;
+        color: #E8380D;
+        visibility: hidden;
+        display: inline;
+        height: 20px; }
     .loginreg_cont .loginreg .loginreg_btn {
       width: 360px;
       height: 50px;
