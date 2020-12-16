@@ -376,7 +376,100 @@ a {
 .section {
   background: #f0f0f0;
   padding: 40px 40px 60px; }
-  .section .goodslist {
-    background: #fff; }
+  .section .goodslists {
+    background: #fff;
+    padding: 0 45px; }
+    .section .goodslists h5 {
+      text-align: left;
+      font-size: 16px;
+      padding: 40px 0;
+      color: #333;
+      font-weight: 500; }
+    .section .goodslists .goodsinfo {
+      padding: 30px 0;
+      font-weight: 900;
+      line-height: 100px; }
+      .section .goodslists .goodsinfo .goodslist {
+        display: none;
+        border-bottom: 1px solid #eee;
+        padding-top: 40px; }
+      .section .goodslists .goodsinfo .goodspic {
+        float: left;
+        margin-right: 40px; }
+        .section .goodslists .goodsinfo .goodspic img {
+          width: 140px;
+          height: 140px; }
+      .section .goodslists .goodsinfo .goodstitle {
+        float: left;
+        margin-right: 40px; }
+      .section .goodslists .goodsinfo .goodsprice {
+        float: right;
+        margin-right: 80px; }
+      .section .goodslists .goodsinfo .goodsnum {
+        width: 100px;
+        height: 40px;
+        border: 1px solid #e6e6e6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 6px;
+        float: right;
+        margin: 28px 80px 0 0; }
+        .section .goodslists .goodsinfo .goodsnum span {
+          cursor: pointer;
+          font-weight: 900;
+          font-size: 24px; }
+      .section .goodslists .goodsinfo .goodstotal {
+        float: right;
+        margin-right: 80px;
+        width: 80px; }
+      .section .goodslists .goodsinfo .goodsdel {
+        float: right; }
+    .section .goodslists .goodsprice {
+      color: #969696; }
+    .section .goodslists .alchoice {
+      color: #969696;
+      padding: 45px 10px; }
+      .section .goodslists .alchoice span {
+        color: #333; }
+    .section .goodslists .goodstotals {
+      text-align: right;
+      color: #969696;
+      font-size: 14px;
+      padding: 25px 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      .section .goodslists .goodstotals i {
+        font-size: 30px;
+        color: #333;
+        font-weight: 900; }
+    .section .goodslists .choice {
+      float: right;
+      padding: 50px 0;
+      border-top: 1px solid #e6e6e6; }
+      .section .goodslists .choice div {
+        border-radius: 3px;
+        font-size: 16px;
+        text-align: center;
+        float: left;
+        width: 140px;
+        line-height: 50px;
+        background: #fff;
+        margin-right: 10px;
+        cursor: pointer; }
+      .section .goodslists .choice .continue {
+        border: 1px solid #1e1e1e;
+        color: #1e1e1e; }
+        .section .goodslists .choice .continue:hover {
+          border: 1px solid #1e1e1e;
+          background: #1e1e1e;
+          color: #fff; }
+      .section .goodslists .choice .settle {
+        border: none;
+        background: #de634f;
+        color: #fff; }
+        .section .goodslists .choice .settle:hover {
+          background: #dd5241; }
 
 /*# sourceMappingURL=cart.css.map */

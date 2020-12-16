@@ -413,8 +413,8 @@ a {
       line-height: 20px;
       margin-bottom: 30px; }
       .section .goodsinfo .p_count .p_num {
-        width: 40%;
-        height: 50px;
+        width: 100px;
+        height: 40px;
         border: 1px solid #e6e6e6;
         display: flex;
         justify-content: space-between;
@@ -424,7 +424,8 @@ a {
         cursor: pointer;
         font-weight: 900;
         font-size: 24px; }
-  .section .p_btn {
+  .section .p_btn a {
+    display: block;
     background: #eee;
     color: #333;
     font-size: 16px;
@@ -432,7 +433,7 @@ a {
     line-height: 60px;
     text-align: center;
     cursor: pointer; }
-    .section .p_btn:hover {
+    .section .p_btn a:hover {
       background: #dedcdc; }
 
 /*# sourceMappingURL=detail.css.map */

@@ -57,19 +57,32 @@ define(['jcookie'], function() {
                     if ($.inArray($sid, arrsid) === -1) { //不存在
                         arrsid.push($sid);
                         $.cookie('cookiesid', arrsid, { expires: 10, path: '/' });
-                        arrnum.push($('.p_num i').val());
-                        console.log(arrnum.push($('.p_num i').val()));
+                        arrnum.push($('.count').html());
                         $.cookie('cookienum', arrnum, { expires: 10, path: '/' });
                     } else { //存着
                         //通过$sid获取商品的数量所在的位置。
                         let $index = $.inArray($sid, arrsid);
                         // arrnum[$index]//原来的数组
-                        // $('#count').val()//新添加的数量
-                        arrnum[$index] = parseInt(arrnum[$index]); //重新赋值
+                        // $('.count').html()//新添加的数量
+                        arrnum[$index] = parseInt(arrnum[$index]) + parseInt($('.count').html()); //重新赋值
                         $.cookie('cookienum', arrnum, { expires: 10, path: '/' });
                     }
-                    alert('按钮被点击了');
+                    // alert('按钮被点击了');
                 });
+                const $aspan = $('.p_num span');
+                let $num = $('.count').html();
+                $aspan.eq(0).on('click', function() {
+                    if ($num <= 1) {
+                        $num = 1;
+                    } else {
+                        $num--;
+                    }
+                    $('.count').html($num);
+                })
+                $aspan.eq(1).on('click', function() {
+                    $num++;
+                    $('.count').html($num);
+                })
             });
         }
     }

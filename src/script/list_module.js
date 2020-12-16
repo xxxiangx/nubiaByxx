@@ -41,6 +41,8 @@ define(['jlazyload', 'pagination'], () => {
                 $("img.lazy").lazyload({ effect: "fadeIn" });
 
                 //将li元素排序
+                $array_default = [];
+                $array = [];
                 $('.list').each(function(index, element) {
                     $array_default[index] = $(this);
                     $array[index] = $(this);
@@ -89,6 +91,8 @@ define(['jlazyload', 'pagination'], () => {
                             $("img.lazy").lazyload({ effect: "fadeIn" });
 
                             //将li元素添加到排序前的数组中。
+                            $array_default = [];
+                            $array = [];
                             $('.list').each(function(index, element) { //element:原生的元素对象
                                 $array_default[index] = $(this); //排序前
                                 $array[index] = $(this); //排序后

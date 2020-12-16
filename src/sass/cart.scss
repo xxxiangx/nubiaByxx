@@ -4,7 +4,126 @@
 .section {
     background: #f0f0f0;
     padding: 40px 40px 60px;
-    .goodslist {
+    .goodslists {
         background: #fff;
+        padding: 0 45px;
+        h5 {
+            text-align: left;
+            font-size: 16px;
+            padding: 40px 0;
+            color: #333;
+            font-weight: 500;
+        }
+        .goodsinfo {
+            padding: 30px 0;
+            font-weight: 900;
+            line-height: 100px;
+            .goodslist {
+                // display: flex;
+                // justify-content: space-around;
+                // align-items: center;
+                // visibility: hidden;
+                display: none;
+                border-bottom: 1px solid #eee;
+                padding-top: 40px;
+            }
+            .goodspic {
+                float: left;
+                margin-right: 40px;
+                img {
+                    width: 140px;
+                    height: 140px;
+                }
+            }
+            .goodstitle {
+                float: left;
+                margin-right: 40px;
+            }
+            .goodsprice {
+                float: right;
+                margin-right: 80px;
+            }
+            .goodsnum {
+                width: 100px;
+                height: 40px;
+                border: 1px solid rgb(230, 230, 230);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 6px;
+                float: right;
+                margin: 28px 80px 0 0;
+                span {
+                    cursor: pointer;
+                    font-weight: 900;
+                    font-size: 24px;
+                }
+            }
+            .goodstotal {
+                float: right;
+                margin-right: 80px;
+                width: 80px;
+            }
+            .goodsdel {
+                float: right;
+            }
+        }
+        .goodsprice {
+            color: rgb(150, 150, 150);
+        }
+        .alchoice {
+            color: rgb(150, 150, 150);
+            padding: 45px 10px;
+            span {
+                color: #333;
+            }
+        }
+        .goodstotals {
+            text-align: right;
+            color: rgb(150, 150, 150);
+            font-size: 14px;
+            padding: 25px 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            i {
+                font-size: 30px;
+                color: #333;
+                font-weight: 900;
+            }
+        }
+        .choice {
+            float: right;
+            padding: 50px 0;
+            border-top: 1px solid rgb(230, 230, 230);
+            div {
+                border-radius: 3px;
+                font-size: 16px;
+                text-align: center;
+                float: left;
+                width: 140px;
+                line-height: 50px;
+                background: #fff;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+            .continue {
+                border: 1px solid rgb(30, 30, 30);
+                color: rgb(30, 30, 30);
+                &:hover {
+                    border: 1px solid rgb(30, 30, 30);
+                    background: rgb(30, 30, 30);
+                    color: #fff;
+                }
+            }
+            .settle {
+                border: none;
+                background: #de634f;
+                color: #fff;
+                &:hover {
+                    background: #dd5241;
+                }
+            }
+        }
     }
 }
