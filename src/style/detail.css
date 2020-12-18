@@ -266,6 +266,15 @@ a {
         .header .head_tab .inner_tab .inner_list img {
           width: 100px;
           height: 100px; }
+  .header .admin {
+    display: none;
+    position: absolute;
+    right: 200px;
+    top: 22px;
+    color: #de634f;
+    font-size: 14px; }
+    .header .admin span {
+      margin-right: 10px; }
 
 .footer {
   clear: both;

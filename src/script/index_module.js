@@ -124,6 +124,21 @@ define(['jlazyload'], () => {
             }, function() {
                 $loginreg.hide();
             });
+
+            //检测是否用户已经登录
+            if (localStorage.getItem('loginname')) {
+                $('.admin').show();
+                $('.login').hide();
+                $('.admin span').html(localStorage.getItem('loginname'));
+            }
+
+            //退出登录 - 删除本地存储
+            $('.admin a').on('click', function() {
+                $('.admin').hide();
+                $('.login').show();
+                localStorage.removeItem('loginname');
+            });
+
         }
     }
 });

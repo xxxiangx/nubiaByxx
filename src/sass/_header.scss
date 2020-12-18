@@ -141,4 +141,15 @@
             }
         }
     }
+    .admin {
+        display: none;
+        position: absolute;
+        right: 200px;
+        top: 22px;
+        color: #de634f;
+        font-size: 14px;
+        span {
+            margin-right: 10px;
+        }
+    }
 }

@@ -266,6 +266,15 @@ a {
         .header .head_tab .inner_tab .inner_list img {
           width: 100px;
           height: 100px; }
+  .header .admin {
+    display: none;
+    position: absolute;
+    right: 200px;
+    top: 22px;
+    color: #de634f;
+    font-size: 14px; }
+    .header .admin span {
+      margin-right: 10px; }
 
 .section .carousel .inner_cs img, .section .adv img, .section .main .main_list img, .section .spell img, .section .recommend li img {
   width: 100%;
@@ -313,9 +322,9 @@ a {
       cursor: pointer;
       display: none; }
     .section .carousel .cs_left {
-      left: 40px; }
+      left: 10%; }
     .section .carousel .cs_right {
-      right: 40px; }
+      right: 10%; }
   .section .adv {
     margin-bottom: 10px;
     position: relative; }
@@ -455,5 +464,8 @@ a {
       background-color: #636363;
       color: #fff;
       border-radius: 10px; }
+
+body {
+  overflow-x: hidden; }
 
 /*# sourceMappingURL=index.css.map */

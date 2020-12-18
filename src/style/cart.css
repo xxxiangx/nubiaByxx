@@ -266,6 +266,15 @@ a {
         .header .head_tab .inner_tab .inner_list img {
           width: 100px;
           height: 100px; }
+  .header .admin {
+    display: none;
+    position: absolute;
+    right: 200px;
+    top: 22px;
+    color: #de634f;
+    font-size: 14px; }
+    .header .admin span {
+      margin-right: 10px; }
 
 .footer {
   clear: both;
@@ -424,7 +433,8 @@ a {
         margin-right: 80px;
         width: 80px; }
       .section .goodslists .goodsinfo .goodsdel {
-        float: right; }
+        float: right;
+        cursor: pointer; }
     .section .goodslists .goodsprice {
       color: #969696; }
     .section .goodslists .alchoice {
@@ -458,10 +468,11 @@ a {
         background: #fff;
         margin-right: 10px;
         cursor: pointer; }
-      .section .goodslists .choice .continue {
+      .section .goodslists .choice .continue a {
+        display: block;
         border: 1px solid #1e1e1e;
         color: #1e1e1e; }
-        .section .goodslists .choice .continue:hover {
+        .section .goodslists .choice .continue a:hover {
           border: 1px solid #1e1e1e;
           background: #1e1e1e;
           color: #fff; }

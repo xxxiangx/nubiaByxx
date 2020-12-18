@@ -66,6 +66,7 @@
             }
             .goodsdel {
                 float: right;
+                cursor: pointer;
             }
         }
         .goodsprice {
@@ -107,7 +108,8 @@
                 margin-right: 10px;
                 cursor: pointer;
             }
-            .continue {
+            .continue a {
+                display: block;
                 border: 1px solid rgb(30, 30, 30);
                 color: rgb(30, 30, 30);
                 &:hover {
